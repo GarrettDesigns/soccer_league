@@ -14,7 +14,7 @@ def distribute_players():
     exp_players_list = []
     other_players = []
 
-    # sort through list of players, divide into playes with and witout experience
+    # sort through list of players, divide into players with and without experience
     for player in roster:
         if player['Soccer Experience'] == "YES":
             exp_players_list.append(player)
@@ -44,7 +44,7 @@ def create_teams():
         del other_players_list[:max_player_type]
         del exp_players_list[:max_player_type]
 
-# Define function to generate a file container a list of teams and players information
+# Define function to generate a file containing a list of teams and players information
 def generate_teams_list():
     # Open file to write team
     with open('teams.txt', 'w') as file:
