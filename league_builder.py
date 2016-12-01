@@ -36,16 +36,19 @@ def distribute_players():
     max_player_type = int(len(exp_players_list)/len(teams))
     for player_list in teams.values():
         for player in range(max_player_type):
-            try:
-                player_list.append("Name: {}, Experience: {}".format(other_players_list[player]['Name'], other_players_list[player]['Soccer Experience']))
-                player_list.append("Name: {}, Experience: {}".format(exp_players_list[player]['Name'], exp_players_list[player]['Soccer Experience']))
-            except:
-                break
-        del other_players_list[:3]
-        del exp_players_list[:3]
-        print(player_list)
+            player_list.append("Name: {}, Experience: {}".format(other_players_list[player]['Name'], other_players_list[player]['Soccer Experience']))
+            player_list.append("Name: {}, Experience: {}".format(exp_players_list[player]['Name'], exp_players_list[player]['Soccer Experience']))
+        del other_players_list[:max_player_type]
+        del exp_players_list[:max_player_type]
+
+def print_player_names():
+    for team_name, roster in teams.items():
+        print(team_name)
+        for player in roster:
+            print(player)
 
 
 # make sure script can't be executed when imported
 if __name__ == "__main__":
     distribute_players()
+    print_player_names()
