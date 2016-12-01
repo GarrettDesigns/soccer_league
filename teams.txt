@@ -1,24 +1,24 @@
 
 Raptors
-Name: Eva Gordon, Experience: NO, Guardian(s): Wendy and Mike Gordon
-Name: Joe Smith, Experience: YES, Guardian(s): Jim and Jan Smith
-Name: Matt Gill, Experience: NO, Guardian(s): Charles and Sylvia Gill
-Name: Jill Tanner, Experience: YES, Guardian(s): Clara Tanner
-Name: Kimmy Stein, Experience: NO, Guardian(s): Bill and Hillary Stein
-Name: Bill Bon, Experience: YES, Guardian(s): Sara and Jenny Bon
-
-Dragons
-Name: Sammy Adams, Experience: NO, Guardian(s): Jeff Adams
-Name: Karl Saygan, Experience: YES, Guardian(s): Heather Bledsoe
-Name: Sal Dali, Experience: NO, Guardian(s): Gala Dali
-Name: Suzane Greenberg, Experience: YES, Guardian(s): Henrietta Dumas
-Name: Joe Kavalier, Experience: NO, Guardian(s): Sam and Elaine Kavalier
-Name: Diego Soto, Experience: YES, Guardian(s): Robin and Sarika Soto
+Eva Gordon, NO, Wendy and Mike Gordon
+Joe Smith, YES, Jim and Jan Smith
+Matt Gill, NO, Charles and Sylvia Gill
+Jill Tanner, YES, Clara Tanner
+Kimmy Stein, NO, Bill and Hillary Stein
+Bill Bon, YES, Sara and Jenny Bon
 
 Sharks
-Name: Ben Finkelstein, Experience: NO, Guardian(s): Aaron and Jill Finkelstein
-Name: Phillip Helm, Experience: YES, Guardian(s): Thomas Helm and Eva Jones
-Name: Chloe Alaska, Experience: NO, Guardian(s): David and Jamie Alaska
-Name: Les Clay, Experience: YES, Guardian(s): Wynonna Brown
-Name: Arnold Willis, Experience: NO, Guardian(s): Claire Willis
-Name: Herschel Krustofski, Experience: YES, Guardian(s): Hyman and Rachel Krustofski
+Sammy Adams, NO, Jeff Adams
+Karl Saygan, YES, Heather Bledsoe
+Sal Dali, NO, Gala Dali
+Suzane Greenberg, YES, Henrietta Dumas
+Joe Kavalier, NO, Sam and Elaine Kavalier
+Diego Soto, YES, Robin and Sarika Soto
+
+Dragons
+Ben Finkelstein, NO, Aaron and Jill Finkelstein
+Phillip Helm, YES, Thomas Helm and Eva Jones
+Chloe Alaska, NO, David and Jamie Alaska
+Les Clay, YES, Wynonna Brown
+Arnold Willis, NO, Claire Willis
+Herschel Krustofski, YES, Hyman and Rachel Krustofski
