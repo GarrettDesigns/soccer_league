@@ -1,3 +1,6 @@
+# Import CSV module
+import csv
+
 # Define function to read in the roster of players
 def get_roster():
     with open('soccer_players.csv') as file:
@@ -77,9 +80,6 @@ def generate_welcome_letter():
 
 # make sure script can't be executed when imported
 if __name__ == "__main__":
-    # Import CSV module
-    import csv
-
     # Define list of team names
     teams = {'Raptors': [], 'Sharks': [], 'Dragons': []}
 
