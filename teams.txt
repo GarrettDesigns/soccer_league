@@ -7,7 +7,7 @@ Jill Tanner, YES, Clara Tanner
 Kimmy Stein, NO, Bill and Hillary Stein
 Bill Bon, YES, Sara and Jenny Bon
 
-Raptors
+Sharks
 Sammy Adams, NO, Jeff Adams
 Karl Saygan, YES, Heather Bledsoe
 Sal Dali, NO, Gala Dali
@@ -15,7 +15,7 @@ Suzane Greenberg, YES, Henrietta Dumas
 Joe Kavalier, NO, Sam and Elaine Kavalier
 Diego Soto, YES, Robin and Sarika Soto
 
-Sharks
+Raptors
 Ben Finkelstein, NO, Aaron and Jill Finkelstein
 Phillip Helm, YES, Thomas Helm and Eva Jones
 Chloe Alaska, NO, David and Jamie Alaska

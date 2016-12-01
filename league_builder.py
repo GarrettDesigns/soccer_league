@@ -37,11 +37,15 @@ def create_teams():
     for player_list in teams.values():
         # Add players of each type up to the max type per team
         for player in range(max_player_type):
+            # Store player in variables
+            exp_player = exp_players_list[player]
+            other_player = other_players_list[player]
+
             # Add non-experienced players
-            player_list.append([other_players_list[player]['Name'], other_players_list[player]['Soccer Experience'], other_players_list[player]['Guardian Name(s)']])
+            player_list.append([other_player['Name'], other_player['Soccer Experience'], other_player['Guardian Name(s)']])
 
             # Add experienced players
-            player_list.append([exp_players_list[player]['Name'], exp_players_list[player]['Soccer Experience'], exp_players_list[player]['Guardian Name(s)']])
+            player_list.append([exp_player['Name'], exp_player['Soccer Experience'], exp_player['Guardian Name(s)']])
 
         # Remove already added chunk of player types
         del other_players_list[:max_player_type]
