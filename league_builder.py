@@ -12,8 +12,10 @@ def get_roster():
 
 # define function to filter player types into a separate lists
 def distribute_players():
-    # read roster in and define empty lists to hold players
+    # read roster in
     roster = get_roster()
+
+    # define empty lists to hold players
     exp_players_list = []
     other_players = []
 
@@ -38,23 +40,23 @@ def create_teams():
         # Add players of each type up to the max type per team
         for player in range(max_player_type):
             # Add non-experienced players
-            player_list.append("Name: {}, Experience: {}, Guardians: {}".format(other_players_list[player]['Name'], other_players_list[player]['Soccer Experience'], other_players_list[player]['Guardian Name(s)']))
+            player_list.append("Name: {}, Experience: {}, Guardian(s): {}".format(other_players_list[player]['Name'], other_players_list[player]['Soccer Experience'], other_players_list[player]['Guardian Name(s)']))
 
             # Add experienced players
-            player_list.append("Name: {}, Experience: {}, Guardians: {}".format(exp_players_list[player]['Name'], exp_players_list[player]['Soccer Experience'], exp_players_list[player]['Guardian Name(s)']))
+            player_list.append("Name: {}, Experience: {}, Guardian(s): {}".format(exp_players_list[player]['Name'], exp_players_list[player]['Soccer Experience'], exp_players_list[player]['Guardian Name(s)']))
 
         # Remove already added chunk of player types
         del other_players_list[:max_player_type]
         del exp_players_list[:max_player_type]
 
-def print_player_names():
-    for team_name, roster in teams.items():
-        print(team_name)
-        for player in roster:
-            print(player)
-
+def print_players():
+    with open('teams.txt', 'a') as file:
+        for team_name, roster in teams.items():
+            file.write('\n' + team_name + '\n')
+            for player in roster:
+                file.write(player + '\n')
 
 # make sure script can't be executed when imported
 if __name__ == "__main__":
     create_teams()
-    print_player_names()
+    print_players()
