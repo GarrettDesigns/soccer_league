@@ -83,6 +83,9 @@ if __name__ == "__main__":
     # Define list of team names
     teams = {'Raptors': [], 'Sharks': [], 'Dragons': []}
 
+    # distribute players across all teams
     create_teams()
+
+    # generate team file and welcome letters
     generate_teams_list()
     generate_welcome_letter()
