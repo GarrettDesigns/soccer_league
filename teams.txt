@@ -1,5 +1,5 @@
 
-Raptors
+Sharks
 Eva Gordon, NO, Wendy and Mike Gordon
 Joe Smith, YES, Jim and Jan Smith
 Matt Gill, NO, Charles and Sylvia Gill
@@ -7,7 +7,7 @@ Jill Tanner, YES, Clara Tanner
 Kimmy Stein, NO, Bill and Hillary Stein
 Bill Bon, YES, Sara and Jenny Bon
 
-Sharks
+Raptors
 Sammy Adams, NO, Jeff Adams
 Karl Saygan, YES, Heather Bledsoe
 Sal Dali, NO, Gala Dali

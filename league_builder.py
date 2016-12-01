@@ -72,11 +72,11 @@ def generate_welcome_letter():
             file_name = '_'.join(player[0].split())
 
             # Open file to write letters
-            with open(file_name + '.txt', 'w') as letter:
+            with open(file_name.lower() + '.txt', 'w') as letter:
                 player_name = player[0]
                 guardian = player[2]
 
-                # Generate letter for each player 
+                # Generate letter for each player
                 letter.write("Dear " + guardian + ",\n")
                 letter.write("\nWe are writing to welcome {0} to the {1}, we are so glad to have you both!\nYour first practice will take place at the {1}'s home field on Monday December 5th at 5:00pm".format(player_name, team))
 
